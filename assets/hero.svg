@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" role="img" aria-label="Timer Bubble · GENREs">
+  <defs>
+    <linearGradient id="paper" x2="1" y2="1"><stop stop-color="#f9f5f0"/><stop offset=".54" stop-color="#eeeaf1"/><stop offset="1" stop-color="#dfe1ef"/></linearGradient>
+    <radialGradient id="cloud"><stop stop-color="#cca1be" stop-opacity=".45"/><stop offset="1" stop-color="#cca1be" stop-opacity="0"/></radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".56" numOctaves="3" seed="8"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".08"/></feComponentTransfer></filter>
+  </defs>
+  <rect width="1200" height="460" rx="22" fill="url(#paper)"/><circle cx="976" cy="186" r="260" fill="url(#cloud)"/>
+  <text x="80" y="76" fill="#454358" font-size="23" font-family="Georgia,serif" letter-spacing="9">GENREs</text><path d="M80 92H279" stroke="#9a91a4"/>
+  <text x="80" y="155" fill="#908096" font-size="16" font-family="sans-serif" letter-spacing="4">THE LITTLE TOOL COLLECTION / 03</text>
+  <text x="75" y="254" fill="#45435b" font-size="89" font-family="Georgia,serif" letter-spacing="-4">Timer Bubble</text>
+  <text x="80" y="312" fill="#7a748a" font-size="26" font-family="'Noto Serif SC','Songti SC',serif" letter-spacing="6">给时间，一个温柔的坐标。</text>
+  <text x="80" y="365" fill="#8b8191" font-size="18" font-family="sans-serif">专注眼前，也记得抬头看钟。</text>
+  <g transform="translate(990 230)">
+    <circle r="143" fill="#fffaf9" fill-opacity=".66" stroke="#8d849c" stroke-width="2"/>
+    <circle r="127" fill="none" stroke="#e0ccd6" stroke-width="8"/>
+    <g stroke="#746d89" stroke-width="3"><path d="M0-115v16M115 0H99M0 115V99M-115 0h16"/></g>
+    <circle r="8" fill="#a37d94"/><path d="M0 0V-71M0 0l57 29" fill="none" stroke="#666078" stroke-width="8" stroke-linecap="round"/>
+    <path d="M-62 63Q-47 89-12 95" fill="none" stroke="#cf8b9e" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g fill="#c38d9e"><circle cx="828" cy="119" r="4"/><circle cx="827" cy="135" r="2.5"/><circle cx="1159" cy="368" r="4"/></g>
+  <path d="M803 379q64 30 122 15" fill="none" stroke="#7a7193" stroke-width="2" opacity=".35"/>
+  <rect width="1200" height="460" fill="#62576b" filter="url(#grain)" opacity=".34"/>
+  <text x="1136" y="427" fill="#817b90" font-size="13" font-family="sans-serif" text-anchor="end" letter-spacing="4">TIME, IN BLOOM</text>
+</svg>

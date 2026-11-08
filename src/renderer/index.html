@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline';" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer Bubble</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main id="app">
+      <section id="clock" class="glass bubble clock-bubble">
+        <div class="clock-label">Clock</div>
+        <div class="clock-actions">
+          <button id="minimize-window" class="icon-button" type="button" title="最小化到任务栏">−</button>
+        </div>
+        <div id="clock-time" class="clock-time">--:--:--</div>
+        <div id="clock-date" class="clock-date">Loading...</div>
+      </section>
+
+      <div id="resize-handle" class="resize-handle" title="Resize timer bubble"></div>
+
+      <section id="create-panel" class="glass panel hidden">
+        <header class="panel-header">
+          <div>
+            <div class="panel-kicker">New Timer</div>
+            <h1>创建倒计时</h1>
+          </div>
+          <div class="panel-header-actions">
+            <button id="clear-timers" class="icon-button" type="button" title="清空全部">⌫</button>
+            <button id="close-panel" class="icon-button" type="button" title="关闭面板">×</button>
+          </div>
+        </header>
+
+        <form id="timer-form" class="timer-form">
+          <label>
+            <span>标签</span>
+            <input id="timer-label" name="label" type="text" placeholder="发布会" />
+          </label>
+
+          <label>
+            <span>时区</span>
+            <select id="timer-zone" name="zone"></select>
+          </label>
+
+          <label>
+            <span>主时钟时区</span>
+            <select id="clock-zone" name="clockZone"></select>
+          </label>
+
+          <label>
+            <span>主时钟显示</span>
+            <select id="clock-display-mode" name="clockDisplayMode">
+              <option value="time">只显示时间</option>
+              <option value="time-date">时间 + 日期</option>
+            </select>
+          </label>
+
+          <label>
+            <span>主时钟颜色</span>
+            <input id="clock-color" name="clockColor" type="color" />
+          </label>
+
+          <label>
+            <span>新建计时器颜色</span>
+            <input id="default-timer-color" name="defaultTimerColor" type="color" />
+          </label>
+
+          <label>
+            <span>日期</span>
+            <input id="timer-date" name="date" type="date" />
+          </label>
+
+          <label>
+            <span>时间</span>
+            <input id="timer-time" name="time" type="time" step="1" />
+          </label>
+
+          <div class="panel-actions">
+            <button id="start-timer" type="submit" class="primary-button">开始</button>
+          </div>
+        </form>
+      </section>
+
+      <section id="timers" class="timer-stack"></section>
+    </main>
+
+    <template id="timer-template">
+      <article class="glass timer-card bubble">
+        <header class="timer-card-header">
+          <div class="timer-title"></div>
+          <div class="timer-controls">
+            <input type="color" class="icon-button timer-color" title="颜色" />
+            <button type="button" class="icon-button timer-snooze" title="延时 5 分钟">＋</button>
+            <button type="button" class="icon-button timer-minimize" title="最小化">−</button>
+            <button type="button" class="icon-button timer-delete" title="删除">×</button>
+          </div>
+        </header>
+        <div class="timer-remaining"></div>
+        <div class="timer-meta"></div>
+      </article>
+    </template>
+
+    <script src="./renderer.js"></script>
+  </body>
+</html>

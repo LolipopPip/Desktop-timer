@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 600" role="img" aria-label="Timer Bubble 功能界面视觉示意">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f4eaf0"/><stop offset="1" stop-color="#dce2ef"/></linearGradient><linearGradient id="clock" x2="1" y2="1"><stop stop-color="#f3e9e9"/><stop offset="1" stop-color="#e4e4f0"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="16" stdDeviation="19" flood-color="#555168" flood-opacity=".21"/></filter></defs>
+  <rect width="1100" height="600" rx="20" fill="url(#bg)"/><circle cx="109" cy="88" r="150" fill="#f4d7d8" opacity=".42"/>
+  <g filter="url(#s)"><rect x="75" y="64" width="950" height="471" rx="22" fill="#39394f"/></g>
+  <text x="116" y="108" font-family="Georgia,serif" font-size="24" fill="#f2eaf1">Timer Bubble</text><text x="974" y="104" text-anchor="end" font-family="sans-serif" font-size="12" fill="#b0aac2" letter-spacing="2">GENREs / 03</text>
+  <path d="M112 129H987" stroke="#68677a"/>
+  <text x="117" y="180" font-family="sans-serif" font-size="13" fill="#bdb4c6" letter-spacing="3">LOCAL TIME · FRIDAY</text>
+  <text x="112" y="271" font-family="Georgia,serif" font-size="81" fill="#fcf7f1">10:24</text><text x="362" y="267" font-family="Georgia,serif" font-size="36" fill="#e1b2c2">:38</text>
+  <text x="117" y="318" font-family="sans-serif" font-size="16" fill="#b8b7c8">November 06, 2026</text>
+  <rect x="113" y="357" width="360" height="123" rx="16" fill="#4e4d64"/>
+  <text x="141" y="389" font-family="sans-serif" font-size="13" fill="#c3bfcb" letter-spacing="3">WORLD CLOCKS</text>
+  <text x="141" y="427" font-family="sans-serif" font-size="18" fill="#f7f2ef">Seattle</text><text x="446" y="427" text-anchor="end" font-family="Georgia,serif" font-size="20" fill="#ebc7d1">10:24</text>
+  <text x="141" y="457" font-family="sans-serif" font-size="18" fill="#f7f2ef">Shanghai</text><text x="446" y="457" text-anchor="end" font-family="Georgia,serif" font-size="20" fill="#ebc7d1">02:24</text>
+  <text x="550" y="179" font-family="sans-serif" font-size="13" fill="#c4beca" letter-spacing="3">YOUR COUNTDOWNS</text>
+  <rect x="548" y="205" width="423" height="123" rx="18" fill="url(#clock)"/>
+  <text x="577" y="241" font-family="'Noto Sans SC',sans-serif" font-size="17" fill="#777086">实验结束提醒</text>
+  <text x="577" y="293" font-family="Georgia,serif" font-size="43" fill="#4f4d66">00:42:18</text>
+  <circle cx="916" cy="268" r="28" fill="#d3b5c2"/><path d="M909 255v26l18-13Z" fill="#fff8f7"/>
+  <rect x="548" y="345" width="423" height="123" rx="18" fill="#55546d" stroke="#77758e" stroke-width="1"/>
+  <text x="577" y="383" font-family="'Noto Sans SC',sans-serif" font-size="17" fill="#eee7ec">读文献</text>
+  <text x="577" y="432" font-family="Georgia,serif" font-size="42" fill="#f9e9e5">00:18:05</text>
+  <rect x="833" y="391" width="112" height="40" rx="20" fill="#debdc9"/><text x="889" y="417" text-anchor="middle" font-size="13" font-family="sans-serif" fill="#4f5067">+ 5 min</text>
+  <rect x="350" y="504" width="406" height="54" rx="27" fill="#fffaf8" stroke="#e2cfdd" stroke-width="1" filter="url(#s)"/>
+  <text x="378" y="539" font-family="sans-serif" font-size="15" fill="#625a77">◷  Mini Bar</text><text x="713" y="539" text-anchor="end" font-family="Georgia,serif" font-size="20" fill="#7d718c">00:42:18</text>
+  <text x="986" y="577" text-anchor="end" font-family="sans-serif" font-size="11" fill="#8f8091" letter-spacing="2">ILLUSTRATIVE PREVIEW · NOT A SCREENSHOT</text>
+</svg>
