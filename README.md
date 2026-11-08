@@ -1,45 +1,58 @@
-[README.md](https://github.com/user-attachments/files/34538291/README.md)
-# Desktop-timer
-A customizable desktop companion with floating clocks, multiple countdowns, and world time at a glance.
+[Uploading README.md…]()
 <p align="center">
   <img src="./assets/hero.svg" alt="GENREs · Timer Bubble" width="100%" />
 </p>
 
-<p align="center"><strong>给时间一个位置，也给自己一点余地。</strong><br /><sub>Time, gently in sight.</sub></p>
+<p align="center"><strong>Time, gently in sight.</strong><br /><sub>给时间一个位置，也给自己一点余地。</sub></p>
 
-<p align="center"><code>GENREs / 03</code> · Electron · Windows · 悬浮时钟与倒计时</p>
+<p align="center"><code>GENREs / 03</code> · Electron · Windows · Floating Clocks & Timers</p>
 
-Timer Bubble 是一组可以放在桌面上的时间小组件：看时钟、记倒计时、关注不同时区，不用反复切换窗口。
+**Timer Bubble** is a customizable desktop companion that keeps clocks, countdowns, and different time zones within easy reach—so you can stay on track without constantly switching windows.
 
-### ✦ 你可以做什么
+### ✦ What you can do
 
-| 看时间 | 盯进度 | 按自己习惯摆放 |
+| See the time | Count down | Make it yours |
 | :--- | :--- | :--- |
-| 查看日期、时钟和不同时区 | 同时管理多个倒计时 | 拖动悬浮卡片、调整颜色与布局 |
+| View dates, local time, and different time zones | Manage multiple countdowns at once | Move floating cards and adjust their colors and layout |
 
-包括**精简迷你栏**，以及倒计时的**稍后提醒／延长时间**等交互；适合科研实验、工作时段与日常提醒。
+A **minimal mini bar** and options to **snooze or extend countdowns** help you keep experiments, work sessions, and daily routines in view.
 
-### ✦ 界面一瞥
+### ✦ A closer look
 
 <p align="center"><img src="./assets/interface-preview.svg" alt="Timer Bubble 功能界面视觉示意" width="100%" /></p>
 
-<sub>图为根据真实功能绘制的视觉示意，时间和倒计时为示例，并非程序截图。</sub>
+<sub>Illustrative UI concept based on actual features. Times and countdowns are examples; this is not an application screenshot.</sub>
 
-### ✦ 开始使用
+### ✦ Get started
 
-安装 **Node.js ≥ 22.12** 与 npm，在解压后的目录执行：
+Install **Node.js ≥ 22.12** and npm. From the project directory, run:
 
 ```bash
 npm ci
 npm start
 ```
 
-Windows 用户完成安装后也可以双击 `timer.cmd`。当前提供**源码运行版**。
+On Windows, you can also double-click `timer.cmd` after running `npm ci`. This is a **source-code release**.
 
-### ✦ 数据与说明
+### ✦ Data & privacy
 
-- 倒计时和界面设置保存在本机 Electron 应用数据目录。
-- 时区计算使用 `Luxon`；本工具是日常辅助提醒，**不适合用于安全或医疗关键计时**。
-- 仓库不包含用户个人倒计时记录。
+- Countdown settings and layout preferences are stored **locally** in Electron's application data directory.
+- Time zone handling uses **Luxon**.
+- This is a convenience tool, **not a safety-critical or medical timing device**. No personal countdown records are bundled.
+
+<details>
+<summary><strong>🇨🇳 简体中文 · 中文介绍</strong></summary>
+
+**Timer Bubble** 是一组轻盈的桌面时间小组件：看时钟、管理倒计时、关注不同时区，不必反复切换窗口。
+
+- **时钟**：日期、本地时间及不同时区。
+- **倒计时**：同时管理多个倒计时，支持稍后提醒和延长时间。
+- **桌面体验**：自由摆放悬浮卡片、调整颜色与布局，并使用精简迷你栏。
+- **运行**：安装 Node.js ≥ 22.12，依次执行上方的 `npm ci`、`npm start`；Windows 也可使用 `timer.cmd`。
+- **隐私**：倒计时及界面设置保存在本机。请勿将其用于安全或医疗关键计时。
+
+上方图片为功能示意图，并非程序实际截图。
+
+</details>
 
 <p align="center"><sub>A small pause in the rush, by <strong>GENREs</strong> · Little tools, lovingly made.</sub></p>
